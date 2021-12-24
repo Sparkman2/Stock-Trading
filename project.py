@@ -268,7 +268,8 @@ def main():
 
     # Print results of the moving average algorithm, returned above:
     print("The results are...")
-
+    print(alg1_stocks, alg1_balance)
+    
     # Now, call your RSI algorithm!
     stock_file_2 = input("Enter another filename for second stock data"
                          "file (in CSV format): ")
