@@ -220,8 +220,8 @@ def alg_rsi(filename_1, filename_2):
             rsi_micro.append(100 - (100 / (1 + simplify)))
         rsi_day2 += 1
     stocks_owned_a = 0
-    cash_balance_a = 10000
-    cash_balance_m = 10000
+    cash_balance_a = 1000
+    cash_balance_m = 1000
     stocks_owned_m = 0
     for i in range(len(rsi_apple)):
         if stocks_owned_a >= 5 and rsi_apple[i] < 30:
