@@ -4,6 +4,6 @@ This program simulates stock trading in a virtual enviornment. Using the AAPL.cs
 
 # Running the code
 
-Either clone or download the zip file and make sure that the AAPL.csv and MSFT.csv are in the same location as the project.py. 
+Either clone or download the zip file and make sure that the AAPL.csv and MSFT.csv are in the same location as the stock_simulation.py. 
 
 To run the program, either go on an IDE and run main.py or use the commande "python main.py"
